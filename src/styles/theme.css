@@ -1,0 +1,18 @@
+/* Theme-aware variables */
+
+/* Additional theme-specific utilities */
+:root {
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-normal: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+
+    /* Z-index scale */
+    --z-base: 0;
+    --z-dropdown: 100;
+    --z-sticky: 2000;
+    --z-fixed: 300;
+    --z-modal: 1000;
+    --z-tooltip: 1100;
+    --z-notification: 1200;
+}

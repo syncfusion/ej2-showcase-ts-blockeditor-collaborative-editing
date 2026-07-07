@@ -1,0 +1,61 @@
+.rename-dialog-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.rename-dialog {
+    width: 250px;
+    max-width: calc(100vw - 32px);
+    background: var(--surface, #fff);
+    border-radius: 12px;
+    box-shadow:
+        0 12px 40px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    animation: slideUp 0.3s ease-out;
+}
+
+.rename-dialog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.rename-dialog-header span {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.rename-dialog-body {
+    padding: 20px;
+}
+
+.rename-input-field {
+    width: 100%;
+}
+
+.rename-dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 16px 20px;
+    border-top: 1px solid #e5e7eb;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

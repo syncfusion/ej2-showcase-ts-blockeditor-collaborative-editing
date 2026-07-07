@@ -1,0 +1,104 @@
+/* ============================================
+   SYNCFUSION LISTVIEW - VERSION HISTORY
+   ============================================ */
+
+/* ListView container */
+#version-history-list.e-listview {
+    border: none;
+    background-color: transparent;
+}
+
+#version-history-list {
+    height: 100%;
+}
+
+#version-history-list.e-control.e-listview {
+    padding: 0;
+}
+
+/* Group header styling */
+#version-history-list.e-listview .e-list-group-item {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Version item wrapper */
+.version-item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-md);
+    width: 100%;
+}
+
+/* Version content (label + meta) */
+.version-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-xs);
+}
+
+/* Version label styling */
+.version-label {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-medium);
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--sp-xs);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Auto label badge */
+.auto-badge {
+    font-size: var(--fs-small);
+    font-weight: var(--fw-regular);
+    color: var(--text-tertiary);
+    white-space: nowrap;
+}
+
+/* Version metadata */
+.version-meta {
+    font-size: var(--fs-small);
+    color: var(--text-secondary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Version actions (dropdown menu) */
+.version-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-xs);
+    flex-shrink: 0;
+}
+
+/* ============================================
+   LOADING & EMPTY STATES
+   ============================================ */
+
+.e-listview-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    padding: var(--sp-lg);
+}
+
+.e-listview-empty {
+    text-align: center;
+    color: var(--text-tertiary);
+    padding: var(--sp-lg);
+    font-size: var(--fs-small);
+}
+
+.empty-message {
+    margin: 0;
+    color: var(--text-secondary);
+}

@@ -1,0 +1,31 @@
+.toolbar-label {
+    font-size: var(--fs-small);
+    font-weight: var(--fw-medium);
+    color: var(--text-secondary);
+    letter-spacing: 0.5px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.room-url-container {
+    display: flex;
+    gap: var(--sp-xs);
+    align-items: center;
+}
+
+.room-url-container input {
+    background-color: #f6f6f6 !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 1024px) {
+    .room-url-container {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .room-url-container {
+        min-width: 100%;
+    }
+}

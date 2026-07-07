@@ -1,0 +1,57 @@
+/* ============================================
+   COLLABORATORS LIST
+   ============================================ */
+.collab-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* ============================================
+   COLLABORATORS LIST
+   ============================================ */
+.collaborators-list {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.collaborator-item {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-md);
+    padding: var(--sp-md);
+    border-radius: 0;
+    transition: background-color var(--transition-fast);
+}
+
+.collaborator-item:hover {
+    background-color: var(--surface-secondary);
+}
+
+.collaborator-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.collaborator-name {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-medium);
+    color: var(--text-primary);
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.empty-state {
+    text-align: center;
+    color: var(--text-tertiary);
+    padding: var(--sp-lg);
+    font-size: var(--fs-small);
+}
