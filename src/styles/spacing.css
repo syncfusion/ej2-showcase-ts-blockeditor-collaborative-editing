@@ -1,0 +1,34 @@
+/* Spacing Scale */
+:root {
+    /* Base units */
+    --sp-2xs: 4px;
+    --sp-xs: 8px;
+    --sp-sm: 12px;
+    --sp-md: 16px;
+    --sp-lg: 24px;
+    --sp-xl: 32px;
+    --sp-2xl: 48px;
+    --sp-3xl: 25px;
+
+    /* Common combinations */
+    --p-sm: var(--sp-sm);
+    --p-md: var(--sp-md);
+    --p-lg: var(--sp-lg);
+
+    --m-sm: var(--sp-sm);
+    --m-md: var(--sp-md);
+    --m-lg: var(--sp-lg);
+
+    /* Gap for flex/grid */
+    --gap-sm: var(--sp-sm);
+    --gap-md: var(--sp-md);
+    --gap-lg: var(--sp-lg);
+}
+
+/* Rounded Corners */
+:root {
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+}

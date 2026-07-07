@@ -1,0 +1,117 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0 auto;
+    width: calc(80% - 2 * var(--sp-lg));
+    max-width: 1200px;
+}
+
+.toolbar-area {
+    flex-shrink: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.editor-toolbar {
+    width: 100% !important;
+    max-width: 1200px;
+    border: 1px solid var(--border-subtle);
+    border-bottom: none;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    background-color: var(--surface);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.editor-toolbar .e-toolbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sp-md);
+    width: 100%;
+}
+
+.toolbar-left {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-md);
+}
+
+.toolbar-right {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-md);
+    margin-left: auto;
+}
+
+.editor-area {
+    flex: 1;
+    /* overflow: auto; */
+    min-height: 500px;
+    padding: var(--sp-lg);
+    background-color: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.export-button {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.panel-toggle-dropdown {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.collaboration-toolbar-wrapper {
+    /* padding: 0 0 var(--sp-md) 0; */
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar-section-left,
+.toolbar-section-right {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-sm);
+}
+
+/* Scrollbar styling */
+.editor-area::-webkit-scrollbar {
+    width: 8px;
+}
+
+.editor-area::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+.editor-area::-webkit-scrollbar-thumb {
+    background: var(--border-normal);
+    border-radius: var(--radius-md);
+}
+
+.editor-area::-webkit-scrollbar-thumb:hover {
+    background: var(--text-tertiary);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+
+    .editor-container {
+        width: calc(100% - 2 * var(--sp-lg));
+    }
+
+    .editor-toolbar {
+        padding: var(--sp-md);
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .editor-area {
+        min-height: 300px;
+        padding: var(--sp-md);
+    }
+}

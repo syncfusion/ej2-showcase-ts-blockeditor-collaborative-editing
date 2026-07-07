@@ -1,0 +1,42 @@
+{
+    "name": "@syncfusion/ej2-ts-blockeditor-collaborative-editing",
+    "private": true,
+    "version": "1.0.0",
+    "description": "EJ2 TypeScript Blockeditor - Collaborative Editing",
+    "author": "Syncfusion Inc.",
+    "license": "SEE LICENSE IN license",
+    "scripts": {
+        "start": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "ci-publish": "gulp publish-sample"
+    },
+    "dependencies": {
+        "@syncfusion/ej2-base": "*",
+        "@syncfusion/ej2-blockeditor": "*",
+        "@syncfusion/ej2-layouts": "*",
+        "@syncfusion/ej2-buttons": "*",
+        "@syncfusion/ej2-dropdowns": "*",
+        "@syncfusion/ej2-inputs": "*",
+        "@syncfusion/ej2-lists": "*",
+        "@syncfusion/ej2-navigations": "*",
+        "@syncfusion/ej2-popups": "*",
+        "@syncfusion/ej2-splitbuttons": "*",
+        "turndown": "^7.2.4",
+        "turndown-plugin-gfm": "^1.0.2",
+        "y-websocket": "^3.0.0",
+        "yjs": "^13.6.30"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@syncfusion/ej2-showcase-helper": "*",
+        "@types/node": "^24.12.3",
+        "@types/turndown": "^5.0.6",
+        "eslint": "^10.3.0",
+        "globals": "^17.6.0",
+        "typescript": "~6.0.2",
+        "typescript-eslint": "^8.59.2",
+        "vite": "^4.5.0"
+    }
+}

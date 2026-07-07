@@ -1,0 +1,11 @@
+.editor-workspace {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: var(--bg-secondary);
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    padding: var(--sp-lg);
+    padding-top: 0;
+}

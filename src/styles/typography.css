@@ -1,0 +1,44 @@
+/* Font Family */
+:root {
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Typography Scale */
+:root {
+    /* Hero Title - 42px */
+    --fs-hero: 42px;
+    --lh-hero: 1.2;
+    --fw-hero: 500;
+
+    /* Section Heading - 24px */
+    --fs-h1: 24px;
+    --lh-h1: 1.3;
+    --fw-h1: 500;
+
+    /* Subheading - 16px */
+    --fs-h2: 16px;
+    --lh-h2: 1.4;
+    --fw-h2: 500;
+
+    /* Body - 14px */
+    --fs-body: 14px;
+    --lh-body: 1.5;
+    --fw-body: 400;
+
+    /* Small - 12px */
+    --fs-small: 12px;
+    --lh-small: 1.4;
+    --fw-small: 400;
+
+    /* Tiny - 11px */
+    --fs-tiny: 11px;
+    --lh-tiny: 1.3;
+    --fw-tiny: 400;
+}
+
+/* Font Weights - only 400 and 500 */
+:root {
+    --fw-regular: 400;
+    --fw-medium: 500;
+}

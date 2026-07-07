@@ -1,0 +1,78 @@
+/* ============================================
+   SYNCFUSION SIDEBAR CONTAINER
+   ============================================ */
+.syncfusion-sidebar {
+    background-color: var(--bg-secondary);
+    box-shadow: var(--shadow-lg);
+}
+
+/* ============================================
+   SIDEBAR CONTENT WRAPPER
+   ============================================ */
+.sidebar-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* ============================================
+   UNIFIED HEADER (Both modes)
+   ============================================ */
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--sp-md) var(--sp-lg);
+    border-bottom: 1px solid var(--border-subtle);
+    gap: var(--sp-md);
+    flex-shrink: 0;
+}
+
+.sidebar-title {
+    margin: 0;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-medium);
+    color: var(--text-primary);
+    flex: 1;
+}
+
+.sidebar-header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-md);
+}
+
+/* ============================================
+   SIDEBAR CONTENT AREA
+   Container for ListView components
+   ============================================ */
+.sidebar-content {
+    flex: 1;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* ListView container inherits scrolling */
+.sidebar-content .e-listview {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Custom scrollbar for ListViews */
+.sidebar-content .e-listview::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar-content .e-listview::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar-content .e-listview::-webkit-scrollbar-thumb {
+    background: var(--border-normal);
+    border-radius: var(--radius-md);
+}
+
+.sidebar-content .e-listview::-webkit-scrollbar-thumb:hover {
+    background: var(--text-tertiary);
+}
