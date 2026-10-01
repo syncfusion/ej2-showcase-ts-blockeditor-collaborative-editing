@@ -1,13 +1,6 @@
-import '@syncfusion/ej2-base/styles/tailwind3.css';
-import '@syncfusion/ej2-inputs/styles/tailwind3.css';
-import '@syncfusion/ej2-buttons/styles/tailwind3.css';
-import '@syncfusion/ej2-popups/styles/tailwind3.css';
-import '@syncfusion/ej2-splitbuttons/styles/tailwind3.css';
-import '@syncfusion/ej2-navigations/styles/tailwind3.css';
-import '@syncfusion/ej2-dropdowns/styles/tailwind3.css';
-import '@syncfusion/ej2-lists/styles/tailwind3.css';
-import '@syncfusion/ej2-layouts/styles/tailwind3.css';
-import '@syncfusion/ej2-blockeditor/styles/tailwind3.css';
+import '@syncfusion/ej2-tailwind3-theme/styles/sidebar/index.css';
+import '@syncfusion/ej2-tailwind3-theme/styles/list-view/index.css';
+import '@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css';
 import './styles/colors.css';
 import './styles/typography.css';
 import './styles/spacing.css';

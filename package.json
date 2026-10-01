@@ -23,6 +23,7 @@
         "@syncfusion/ej2-navigations": "*",
         "@syncfusion/ej2-popups": "*",
         "@syncfusion/ej2-splitbuttons": "*",
+        "@syncfusion/ej2-tailwind3-theme": "*",
         "turndown": "^7.2.4",
         "turndown-plugin-gfm": "^1.0.2",
         "y-websocket": "^3.0.0",
